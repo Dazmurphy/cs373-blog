@@ -2,8 +2,8 @@
 title: 'CS373 Spring 2016: Darragh Murphy'
 description: 'My blog for my software engineering class'
 #url: 'http://dazmurphy.github.io'
-baseurl: '/cs373-blog/'
-# google_analytics: 'UA-XXXXXX-X'
+baseurl: '/dazmurphy.github.io/'
+#google_analytics: 'UA-XXXXXX-X
 
 author:
   name: 'Darragh Murphy'
