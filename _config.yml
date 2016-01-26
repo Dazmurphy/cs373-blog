@@ -1,0 +1,26 @@
+# Site settings
+title: 'CS373 Spring 2016: Darragh Murphy'
+description: 'My blog for my software engineering class'
+#url: 'http://dazmurphy.github.io'
+baseurl: '/dazmurphy.github.io/'
+# google_analytics: 'UA-XXXXXX-X'
+
+author:
+  name: 'Darragh Murphy'
+  github_username: Dazmurphy
+  linkedin_username:  Dazmurphy
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
